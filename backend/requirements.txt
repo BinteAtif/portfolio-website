@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+groq
+pymongo
+certifi
+python-dotenv
+pydantic
+loguru
+httpx
+pytest
+pytest-asyncio

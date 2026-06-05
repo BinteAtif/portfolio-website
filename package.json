@@ -1,0 +1,14 @@
+{
+  "name": "ai-portfolio-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && .venv\\Scripts\\python -m uvicorn main:app --reload --port 8000",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && python -m venv .venv && .venv\\Scripts\\pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
