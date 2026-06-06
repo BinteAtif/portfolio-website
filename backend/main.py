@@ -36,7 +36,8 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # Frontend URL
+    allow_origins=["http://localhost:5173", "http://localhost:3000", "https://portfolio-website-up2p.vercel.app"],  # Frontend URL
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
