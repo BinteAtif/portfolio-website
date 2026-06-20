@@ -33,7 +33,7 @@ const certifications = [
     {
     title: 'Mastering Python for AI Certification',
     issuer: 'Technexus Virtual University',
-    year: '2023',
+    year: '2026',
     description:
       'Completed a comprehensive certification course on mastering Python for AI applications, covering advanced topics in machine learning and data science.',
     credentialUrl: 'https://www.technexusvu.com/',
