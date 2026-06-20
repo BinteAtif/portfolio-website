@@ -30,9 +30,15 @@ const certifications = [
     credentialUrl: 'https://www.facebook.com/RadiantTarbiyah/',
     color: 'violet',
   },
-
-
-
+    {
+    title: 'Mastering Python for AI Certification',
+    issuer: 'Technexus Virtual University',
+    year: '2023',
+    description:
+      'Completed a comprehensive certification course on mastering Python for AI applications, covering advanced topics in machine learning and data science.',
+    credentialUrl: 'https://www.technexusvu.com/',
+    color: 'emerald',
+  },
 ];
 
 const colorMap = {
