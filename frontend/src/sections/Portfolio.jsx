@@ -38,7 +38,7 @@ const projects = [
     title: 'Library Management System',
     category: 'SQL / Database',
     description: 'Comprehensive library management system with user authentication, book inventory, borrowing/returning features, and admin dashboard using FastAPI and PostgreSQL.',
-    images: ['/projects/library-management-system.png'],
+    images: ['/projects/library-managment-system.PNG'],
     tags: ['FastAPI', 'PostgreSQL', 'SQL', 'Authentication'],
     liveUrl: '',
     githubUrl: 'https://github.com/BinteAtif/Library-Management-System',
