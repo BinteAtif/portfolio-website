@@ -64,14 +64,14 @@ const projects = [
     githubUrl: 'https://github.com/BinteAtif/Python-Projects/tree/main/Python%20Projects/QR%20Code%20Genereator',
     featured: false,
   },
-  {
-    title: 'Advanced Calculator GUI',
+ {
+    title: 'Nexora Store AI Features',
     category: 'Python / Libraries',
-    description: 'A graphical user interface for a scientific calculator built with Python and Tkinter.',
-    images: ['/projects/calculator-1.png'],
-    tags: ['Python', 'Tkinter'],
+    description: 'A Ecommerce store management system with AI-powered product recommendation, semantic search, and More to Love Ai Suggestions using FastAPI and Scikit-learn.',
+    images: ['/projects/nexora-ai.webp'],
+    tags: ['Python', 'FastAPI', 'MongoDB', 'Scikit-learn'],
     liveUrl: '',
-    githubUrl: 'https://github.com/BinteAtif/Python-Projects-1-/tree/main/Python%20Projects%20(1)/GUI%20Calculator',
+    githubUrl: 'https://github.com/BinteAtif/Nexora-AI-Store-Project',
     featured: false,
 
   },
