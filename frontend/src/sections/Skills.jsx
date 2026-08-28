@@ -16,7 +16,7 @@ const skills = [
   { name: 'AI Integration',  level: 80, category: 'AI/ML',     gradient: 'from-indigo-400 to-violet-500',   glow: 'rgba(129,140,248,0.35)'  },
   { name: 'REST APIs',       level: 80, category: 'Backend',   gradient: 'from-emerald-500 to-green-400',   glow: 'rgba(52,211,153,0.35)'  },
   { name: 'Frontend Development', level: 65, category: 'Web Development', gradient: 'from-purple-300 to-purple-500', glow: 'rgba(54,195,324,0.45)' },
-  { name: 'Backend Development', level: 75, category: 'Web Development', gradient: 'fom-electric-indigo-450 to-indigo-550', glow: 'rgba(140,193,174,0.25)'
+  { name: 'Backend Development', level: 75, category: 'Web Development', gradient: 'fom-electric-indigo-450 to-indigo-550', glow: 'rgba(140,193,174,0.25)' },
 ];
 
 const categories = ['All', ...Array.from(new Set(skills.map(s => s.category)))];
