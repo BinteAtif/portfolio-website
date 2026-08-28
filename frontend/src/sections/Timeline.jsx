@@ -6,13 +6,24 @@ const experiences = [
   {
     title: 'AI Developer Intern',
     company: 'TechNexus Virtual University',
-    period: 'March 2026 – Present',
+    period: 'November 2024 – Present',
     badge: 'Current',
     description:
       'Building AI-powered automation and ML/DL systems with Python, FastAPI, SQL/NoSQL architectures, MongoDB, and API-first integration patterns, building real world projects',
     tags: ['Python', 'FastAPI', 'MongoDB', 'SQL', 'NoSQL', 'Automation', 'ML', 'DL'],
     icon: Briefcase,
-    color: 'primary',
+    color: 'primary'
+  },
+
+  {
+    title: 'Backend AI Engineer Intern',
+    company: 'FlyRank AI',
+    period: 'July 2026 – Present',
+    badge: 'Current',
+    description: 'Backend Engineering AI Intern focused on building scalable Python backend solutions and integrating AI, APIs, automation, and intelligent workflows into real-world applications.',
+    tags: ['Python', 'FastAPI', 'MongoDB', 'SQL', 'JS', 'Automation', 'ML', 'Backend'],
+    icon: Briefcase,
+    color: 'primary'
   },
 ];
 
