@@ -78,7 +78,7 @@ const colorMap = {
 
 const CertCard = ({ cert, index }) => {
   const [hovered, setHovered] = useState(false);
-  const c = colorMap[cert.color];
+  const c = colorMap[cert.color] || colorMap.indigo;
   const badgeParts = c.badge.split(' ');
   const badgeText = badgeParts[0];
   const badgeBg = badgeParts.slice(1).join(' ');
