@@ -30,7 +30,7 @@ const certifications = [
     credentialUrl: 'https://www.facebook.com/RadiantTarbiyah/',
     color: 'violet',
   },
-    {
+  {
     title: 'Mastering Python for AI Certification',
     issuer: 'Technexus Virtual University',
     year: '2026',
@@ -38,6 +38,33 @@ const certifications = [
       'Completed a comprehensive certification course on mastering Python for AI applications, covering advanced topics in machine learning and data science.',
     credentialUrl: 'https://www.technexusvu.com/',
     color: 'emerald',
+  },
+   {
+    title: 'Full-Stack Development 101',
+    issuer: 'Skillup by Simplilearn',
+    year: '2026',
+    description:
+      'Learn to build complete web applications from front-end design to back-end development, databases, APIs, and deployment.',
+    credentialUrl: 'https://www.simplilearn.com/',
+    color: 'blue',
+  },
+     {
+    title: 'Full-Stack Development 101',
+    issuer: 'Skillup by Simplilearn',
+    year: '2026',
+    description:
+      'Learn to build complete web applications from front-end design to back-end development, databases, APIs, and deployment.',
+    credentialUrl: 'https://www.simplilearn.com/',
+    color: 'blue',
+  },
+     {
+    title: 'Free Full-Stack Developer Course',
+    issuer: 'Skillup by Simplilearn',
+    year: '2026',
+    description:
+      'A comprehensive course covering front-end, back-end, databases, APIs, and deployment to build complete, responsive, and scalable web applications.',
+    credentialUrl: 'https://www.simplilearn.com/',
+    color: 'teal',
   },
 ];
 
